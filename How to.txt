@@ -1,0 +1,10 @@
+.bashrc
+	Va directamente en el ~ del perfil bash. Si no toma el cambio es posible que sea necesario agregar al ~/.bash_profile lo siguiente:
+
+	if [ -f ~/.bashrc ]
+        then
+            . ~/.bashrc
+        fi
+
+.gitconfig
+	Va directamente en el ~ del perfil bash.
